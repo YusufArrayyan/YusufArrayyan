@@ -175,130 +175,282 @@
 <!-- ═══════════════ INK DIVIDER ═══════════════ -->
 <p align="center"><img src="./assets/divider.svg" width="100%"/></p>
 
-<!-- ═══════════════ INTERACTIVE GAME ═══════════════ -->
+<!-- ═══════════════ INTERACTIVE TEXT-ADVENTURE GAME ═══════════════ -->
 
-<h2 align="center">🎮 Choose Your Stance, Warrior!</h2>
+<h2 align="center">🎮 The Ghost's Trial — Choose Your Path</h2>
 
 <p align="center">
-  <em>Click a stance below to challenge the Oni. Each path reveals a different fate...</em>
+  <em>You stand before the Oni Lord's fortress. Choose wisely, warrior...<br/>
+  Each stance unlocks a unique combat path. <strong>⚠️ Only one leads to the secret ending!</strong></em>
 </p>
 
 <br/>
 
 <div align="center">
 
+<!-- ═══ CHAPTER 1: THE GATE ═══ -->
+
 <details>
-<summary>🪨 <strong>Stone Stance</strong> — Unyielding Strength</summary>
+<summary>⛩️ <strong>CHAPTER 1: The Iron Gate</strong> — <em>Begin the Trial</em></summary>
 
 <br/>
 
 ```
-╔══════════════════════════════════════════════════╗
-║  ⚔️  STONE STANCE ACTIVATED!                    ║
-║                                                  ║
-║  You plant your feet firmly, channeling the      ║
-║  unbreakable force of the mountain.              ║
-║                                                  ║
-║  The Oni charges with Wind magic...              ║
-║  But stone SHATTERS wind!                        ║
-║                                                  ║
-║  💥 CRITICAL HIT! → 50 DMG                      ║
-║                                                  ║
-║  ══════════════════════════════════════           ║
-║  🏆 VICTORY! Your BACKEND skills level up!       ║
-║  → PHP +10 XP | Go +10 XP                       ║
-║  ══════════════════════════════════════           ║
-╚══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   ⛩️  THE IRON GATE                                         ║
+║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  ║
+║                                                              ║
+║   You arrive at a towering gate carved with ancient code.    ║
+║   Three paths diverge before you:                            ║
+║                                                              ║
+║   A guard appears and challenges you:                        ║
+║                                                              ║
+║   "What is the foundation of all web applications?"          ║
+║                                                              ║
+║   ▸ Your knowledge of HTML, CSS, and JS is tested...         ║
+║                                                              ║
+║   You draw your blade and answer with CODE.                  ║
+║                                                              ║
+║   ✅ GATE UNLOCKED — Choose your combat stance below!        ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+> ⛩️ *The gate creaks open. Three dojos await beyond...*
+
+</details>
+
+<!-- ═══ CHAPTER 2A: STONE PATH ═══ -->
+
+<details>
+<summary>🪨 <strong>CHAPTER 2A: Stone Dojo</strong> — <em>"Strength of the Backend"</em></summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   🪨  STONE DOJO — BACKEND TRIALS                            ║
+║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  ║
+║                                                              ║
+║   Master Ishikawa speaks:                                    ║
+║   "The backend is the mountain beneath the temple.           ║
+║    Without it, everything crumbles."                         ║
+║                                                              ║
+║   ┌─────────────────────────────────────────────┐             ║
+║   │  TRIAL 1: Build a REST API         [✅ PASS]│             ║
+║   │  TRIAL 2: Database Design          [✅ PASS]│             ║
+║   │  TRIAL 3: Authentication System    [✅ PASS]│             ║
+║   └─────────────────────────────────────────────┘             ║
+║                                                              ║
+║   ⚔️  COMBAT SEQUENCE:                                      ║
+║   You grab the Oni by the horns with raw PHP power...        ║
+║   Then summon a Go goroutine for the finishing blow!          ║
+║                                                              ║
+║   💥 CRITICAL STRIKE → 50 DMG                                ║
+║   🛡️ Oni's Wind attack SHATTERED by your defense!            ║
+║                                                              ║
+║   ══════════════════════════════════════════════              ║
+║   🏆 VICTORY! Backend Mastery Achieved!                      ║
+║   ┌──────────────────────────────────────┐                    ║
+║   │  PHP ████████████░░ +50 XP  (LVL 3) │                    ║
+║   │  Go  ██████████░░░░ +40 XP  (LVL 2) │                    ║
+║   │  SQL ████████████░░ +45 XP  (LVL 3) │                    ║
+║   └──────────────────────────────────────┘                    ║
+║                                                              ║
+║   🔓 ITEM UNLOCKED: "Blade of Laravel" (Legendary Weapon)   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 > 🪨 *"Like stone, reliable backend code withstands any assault."*
 
+**📦 Inventory Updated:**
+| Item | Type | Bonus |
+|:---|:---|:---|
+| 🗡️ Blade of Laravel | Weapon | +15 Backend DMG |
+| 🛡️ Shield of SQL | Armor | +10 Data Defense |
+| 📜 Scroll of REST | Technique | API mastery |
+
 </details>
 
+<!-- ═══ CHAPTER 2B: WATER PATH ═══ -->
+
 <details>
-<summary>🌊 <strong>Water Stance</strong> — Fluid Adaptation</summary>
+<summary>🌊 <strong>CHAPTER 2B: Water Temple</strong> — <em>"Flow of the Frontend"</em></summary>
 
 <br/>
 
 ```
-╔══════════════════════════════════════════════════╗
-║  🌊  WATER STANCE ACTIVATED!                    ║
-║                                                  ║
-║  You flow like water, adapting to every attack.  ║
-║  Your movements are elegant and precise.         ║
-║                                                  ║
-║  The Oni strikes with Stone fists...             ║
-║  But water ERODES stone!                         ║
-║                                                  ║
-║  💥 PERFECT PARRY! → 45 DMG                     ║
-║                                                  ║
-║  ══════════════════════════════════════           ║
-║  🏆 VICTORY! Your FRONTEND skills level up!      ║
-║  → HTML +10 XP | CSS +10 XP | JS +10 XP         ║
-║  ══════════════════════════════════════           ║
-╚══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   🌊  WATER TEMPLE — FRONTEND TRIALS                        ║
+║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  ║
+║                                                              ║
+║   Lady Masako speaks:                                        ║
+║   "The frontend is the face of your creation.                ║
+║    Make it beautiful, or your users will flee."              ║
+║                                                              ║
+║   ┌─────────────────────────────────────────────┐             ║
+║   │  TRIAL 1: Responsive Layout        [✅ PASS]│             ║
+║   │  TRIAL 2: CSS Animation            [✅ PASS]│             ║
+║   │  TRIAL 3: Interactive DOM          [✅ PASS]│             ║
+║   └─────────────────────────────────────────────┘             ║
+║                                                              ║
+║   ⚔️  COMBAT SEQUENCE:                                      ║
+║   You weave through the Oni's attacks with fluid CSS...      ║
+║   Each transition smooth, each animation precise!            ║
+║                                                              ║
+║   💥 PERFECT PARRY → 45 DMG                                  ║
+║   🌀 The Oni's Stone fists slip through your fluid defense!  ║
+║                                                              ║
+║   ══════════════════════════════════════════════              ║
+║   🏆 VICTORY! Frontend Artistry Achieved!                    ║
+║   ┌──────────────────────────────────────┐                    ║
+║   │  HTML ██████████████ +55 XP (LVL 3) │                    ║
+║   │  CSS  ██████████████ +55 XP (LVL 3) │                    ║
+║   │  JS   ████████████░░ +45 XP (LVL 3) │                    ║
+║   └──────────────────────────────────────┘                    ║
+║                                                              ║
+║   🔓 ITEM UNLOCKED: "Robes of Bootstrap" (Legendary Armor)  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-> 🌊 *"Like water, responsive design flows to fit any screen."*
+> 🌊 *"Like water, responsive design flows to fit any vessel."*
+
+**📦 Inventory Updated:**
+| Item | Type | Bonus |
+|:---|:---|:---|
+| 🎨 Robes of Bootstrap | Armor | +15 UI Defense |
+| ✨ Gem of Animation | Accessory | +10 UX Magic |
+| 📜 Scroll of DOM | Technique | Interactive mastery |
 
 </details>
 
+<!-- ═══ CHAPTER 2C: WIND PATH ═══ -->
+
 <details>
-<summary>💨 <strong>Wind Stance</strong> — Swift Precision</summary>
+<summary>💨 <strong>CHAPTER 2C: Wind Shrine</strong> — <em>"Speed of the Tools"</em></summary>
 
 <br/>
 
 ```
-╔══════════════════════════════════════════════════╗
-║  💨  WIND STANCE ACTIVATED!                     ║
-║                                                  ║
-║  You move faster than the eye can follow.        ║
-║  Your blade dances like leaves in a storm.       ║
-║                                                  ║
-║  The Oni casts Water magic...                    ║
-║  But wind SCATTERS water!                        ║
-║                                                  ║
-║  💥 FLURRY STRIKE! → 55 DMG                     ║
-║                                                  ║
-║  ══════════════════════════════════════           ║
-║  🏆 VICTORY! Your TOOLS mastery levels up!       ║
-║  → Git +10 XP | GitHub +10 XP                   ║
-║  ══════════════════════════════════════           ║
-╚══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   💨  WIND SHRINE — DEVOPS TRIALS                            ║
+║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  ║
+║                                                              ║
+║   Lord Shimura speaks:                                       ║
+║   "A warrior is only as fast as their tools.                 ║
+║    Master Git, and you master time itself."                  ║
+║                                                              ║
+║   ┌─────────────────────────────────────────────┐             ║
+║   │  TRIAL 1: Git Branching Strategy   [✅ PASS]│             ║
+║   │  TRIAL 2: CI/CD Pipeline           [✅ PASS]│             ║
+║   │  TRIAL 3: Code Review              [✅ PASS]│             ║
+║   └─────────────────────────────────────────────┘             ║
+║                                                              ║
+║   ⚔️  COMBAT SEQUENCE:                                      ║
+║   You deploy a GitHub Action that strikes before             ║
+║   the Oni can even react! Lightning-fast CI/CD!              ║
+║                                                              ║
+║   💥 FLURRY STRIKE → 55 DMG                                  ║
+║   💨 Wind scatters the Oni's water magic instantly!           ║
+║                                                              ║
+║   ══════════════════════════════════════════════              ║
+║   🏆 VICTORY! DevOps Mastery Achieved!                       ║
+║   ┌──────────────────────────────────────┐                    ║
+║   │  Git  ██████████████ +50 XP (LVL 3) │                    ║
+║   │  CI/CD████████░░░░░░ +30 XP (LVL 2) │                    ║
+║   │  VS   ██████████░░░░ +40 XP (LVL 2) │                    ║
+║   └──────────────────────────────────────┘                    ║
+║                                                              ║
+║   🔓 ITEM UNLOCKED: "Kunai of Git" (Legendary Throwable)    ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-> 💨 *"Like wind, efficient tooling accelerates everything it touches."*
+> 💨 *"Like wind, efficient tooling accelerates everything."*
+
+**📦 Inventory Updated:**
+| Item | Type | Bonus |
+|:---|:---|:---|
+| 🗡️ Kunai of Git | Throwable | +15 Deploy Speed |
+| 🔧 Wrench of VS Code | Tool | +10 Productivity |
+| 📜 Scroll of Actions | Technique | Automation mastery |
 
 </details>
 
+<!-- ═══ CHAPTER 3: FINAL BOSS ═══ -->
+
 <details>
-<summary>🌙 <strong>Moon Stance</strong> — Absolute Mastery</summary>
+<summary>🌙 <strong>CHAPTER 3: The Final Stance</strong> — <em>⚠️ Moon Stance Required</em></summary>
 
 <br/>
 
 ```
-╔══════════════════════════════════════════════════╗
-║  🌙  MOON STANCE ACTIVATED!                     ║
-║                                                  ║
-║  The ultimate technique. You transcend all       ║
-║  limitations, channeling the moonlight itself.   ║
-║                                                  ║
-║  The Oni trembles... it cannot comprehend        ║
-║  the power of DATA-DRIVEN DECISIONS!             ║
-║                                                  ║
-║  💥 LEGENDARY STRIKE! → 99 DMG                  ║
-║                                                  ║
-║  ══════════════════════════════════════           ║
-║  👑 PERFECT VICTORY! DATA mastery achieved!      ║
-║  → Analysis +20 XP | Visualization +20 XP       ║
-║  ══════════════════════════════════════           ║
-║                                                  ║
-║  🌸 "The Ghost sheathed his blade as cherry     ║
-║     blossoms drifted across the moonlit field."  ║
-╚══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   🌙  THE FINAL STANCE — ONI LORD BATTLE                     ║
+║   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  ║
+║                                                              ║
+║   The Oni Lord rises from the data lake.                     ║
+║   His power: CHAOTIC UNSTRUCTURED DATA.                      ║
+║                                                              ║
+║   ┌─────────────────────────────────────────────┐             ║
+║   │  ONI LORD HP: ██████████████████░░ 90/100   │             ║
+║   │  YOUR HP:     ████████████████████ 100/100  │             ║
+║   └─────────────────────────────────────────────┘             ║
+║                                                              ║
+║   You channel ALL FOUR STANCES simultaneously...             ║
+║                                                              ║
+║   🪨 Stone  → Stable backend absorbs the blow               ║
+║   🌊 Water  → Fluid frontend adapts to chaos                ║
+║   💨 Wind   → Rapid deployment counters instantly            ║
+║   🌙 Moon   → DATA ANALYSIS reveals the weakness!           ║
+║                                                              ║
+║   💥💥💥 LEGENDARY STRIKE → 999 DMG 💥💥💥                  ║
+║                                                              ║
+║   ┌─────────────────────────────────────────────┐             ║
+║   │  ONI LORD HP: ░░░░░░░░░░░░░░░░░░░░  0/100   │             ║
+║   │  STATUS: ☠️  DEFEATED                       │             ║
+║   └─────────────────────────────────────────────┘             ║
+║                                                              ║
+║   ══════════════════════════════════════════════              ║
+║   👑 PERFECT VICTORY — THE ONI LORD HAS FALLEN!              ║
+║   ┌──────────────────────────────────────┐                    ║
+║   │  Analysis      ██████████████ +99 XP │                    ║
+║   │  Visualization ██████████████ +99 XP │                    ║
+║   │  Full-Stack    ██████████████ +99 XP │                    ║
+║   └──────────────────────────────────────┘                    ║
+║                                                              ║
+║   🌸 "The Ghost sheathed his blade as a thousand            ║
+║      cherry blossoms erupted across the moonlit field.       ║
+║      The data was clean. The code was pure.                  ║
+║      The ronin had found peace."                             ║
+║                                                              ║
+║   🔓 SECRET UNLOCKED: "Title of Full-Stack Ronin"           ║
+║   🔓 ACHIEVEMENT: "The Ghost of Tsushima"                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-> 🌙 *"Like the moon, data illuminates what was hidden in darkness."*
+> 🌙 *"When all stances unite, no demon can stand."*
+
+**🏆 Final Rewards:**
+| Item | Type | Bonus |
+|:---|:---|:---|
+| 👑 Crown of the Full-Stack Ronin | Title | +∞ Honor |
+| 🌸 Petal of Tsushima | Relic | Eternal Cherry Blossoms |
+| 📊 Eye of Data | Legendary | See all patterns |
+
+---
+
+*🎮 You have completed **The Ghost's Trial**! Thank you for playing!*
+
+*⭐ If you enjoyed this, consider giving this profile a star!*
 
 </details>
 
@@ -319,16 +471,23 @@
 
 <br/>
 
+<!-- GitHub Trophies -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YusufArrayyan&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="100%"/>
+</p>
+
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YusufArrayyan&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=c41e3a&text_color=e8dcc8&icon_color=d4a574&ring_color=c41e3a" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-alpha.vercel.app/api?username=YusufArrayyan&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=c41e3a&text_color=e8dcc8&icon_color=d4a574&ring_color=c41e3a&cache_seconds=1800" alt="GitHub Stats" height="180"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YusufArrayyan&layout=compact&hide_border=true&bg_color=0a0a1a&title_color=c41e3a&text_color=e8dcc8" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=YusufArrayyan&layout=compact&hide_border=true&bg_color=0a0a1a&title_color=c41e3a&text_color=e8dcc8&cache_seconds=1800" alt="Top Languages" height="180"/>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YusufArrayyan&hide_border=true&background=0a0a1a&stroke=2a1520&ring=c41e3a&fire=ff4444&currStreakNum=e8dcc8&sideNums=e8dcc8&currStreakLabel=d4a574&sideLabels=d4a574&dates=8b7355" alt="GitHub Streak" width="520"/>
+  <img src="https://streak-stats.demolab.com/?user=YusufArrayyan&hide_border=true&background=0a0a1a&stroke=2a1520&ring=c41e3a&fire=ff4444&currStreakNum=e8dcc8&sideNums=e8dcc8&currStreakLabel=d4a574&sideLabels=d4a574&dates=8b7355" alt="GitHub Streak" width="520"/>
 </p>
 
 <br/>
@@ -406,6 +565,29 @@
 <p align="center">
   <sub>⛩️ <em>"Honor is not given. It is earned by the code you write and the lives you change."</em> ⛩️</sub>
 </p>
+
+<br/>
+
+<!-- ═══════════════ HOW TO RESTORE THE LEGEND ═══════════════ -->
+<details>
+<summary>🛠️ <strong>The Ronin's Guide — How to fix broken images</strong></summary>
+
+<br/>
+
+### 🐍 Restore the Snake Animation
+If the contribution snake is missing, follow these ancient steps:
+1.  Go to your repository's **Actions** tab on GitHub.
+2.  Click on **"Generate Snake Animation"** in the sidebar.
+3.  Click the **"Run workflow"** button.
+4.  Once it finishes (1-2 mins), the snake will appear!
+
+### 📊 Restore Battle Statistics
+If the "GitHub Stats" or "Top Languages" are broken:
+-   This is due to high traffic on the shared stats server (Vercel).
+-   **Fix:** We've switched to the `alpha` instance for better stability.
+-   **Pro Tip:** If you want 100% uptime, you can [deploy your own instance](https://github.com/anuraghazra/github-readme-stats#deploy-your-own-instance) to your Vercel account.
+
+</details>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!-- 🌸 Crafted with honor by Yusuf Arrayyan — The Code Ronin 🌸  -->
