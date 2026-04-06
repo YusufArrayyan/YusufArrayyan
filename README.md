@@ -170,6 +170,21 @@
   <img src="./assets/battle-scene.svg" alt="RPG Battle Scene — Samurai vs Oni Demon" width="100%"/>
 </p>
 
+<!-- 🎮 RONIN'S COMBAT HUD 🎮 -->
+<div align="center">
+
+| 🏯 **BATTLE CONTROLS** |
+|:---:|
+| <a href="#chapter-2a"><img src="https://img.shields.io/badge/⚔️_STONE_STANCE-c41e3a?style=for-the-badge&logo=playstation&logoColor=white" alt="Stone Stance"/></a> <a href="#chapter-2b"><img src="https://img.shields.io/badge/⚔️_WATER_STANCE-454580?style=for-the-badge&logo=playstation&logoColor=white" alt="Water Stance"/></a> <a href="#chapter-2c"><img src="https://img.shields.io/badge/⚔️_WIND_STANCE-d4a574?style=for-the-badge&logo=playstation&logoColor=white" alt="Wind Stance"/></a> |
+| <a href="#chapter-3"><img src="https://img.shields.io/badge/⚠️_ULTIMATE_STRIKE-white?style=for-the-badge&logo=playstation&logoColor=c41e3a" alt="Final Stance"/></a> |
+| <sub>*Click a button to engage the Oni!*</sub> |
+
+</div>
+
+<br/>
+
+<br/>
+
 <br/>
 
 <!-- ═══════════════ INK DIVIDER ═══════════════ -->
@@ -191,7 +206,7 @@
 <!-- ═══ CHAPTER 1: THE GATE ═══ -->
 
 <details>
-<summary>⛩️ <strong>CHAPTER 1: The Iron Gate</strong> — <em>Begin the Trial</em></summary>
+<summary id="gate">⛩️ <strong>CHAPTER 1: The Iron Gate</strong> — <em>Begin the Trial</em></summary>
 
 <br/>
 
@@ -224,7 +239,7 @@
 <!-- ═══ CHAPTER 2A: STONE PATH ═══ -->
 
 <details>
-<summary>🪨 <strong>CHAPTER 2A: Stone Dojo</strong> — <em>"Strength of the Backend"</em></summary>
+<summary id="chapter-2a">🪨 <strong>CHAPTER 2A: Stone Dojo</strong> — <em>"Strength of the Backend"</em></summary>
 
 <br/>
 
@@ -278,7 +293,7 @@
 <!-- ═══ CHAPTER 2B: WATER PATH ═══ -->
 
 <details>
-<summary>🌊 <strong>CHAPTER 2B: Water Temple</strong> — <em>"Flow of the Frontend"</em></summary>
+<summary id="chapter-2b">🌊 <strong>CHAPTER 2B: Water Temple</strong> — <em>"Flow of the Frontend"</em></summary>
 
 <br/>
 
@@ -332,7 +347,7 @@
 <!-- ═══ CHAPTER 2C: WIND PATH ═══ -->
 
 <details>
-<summary>💨 <strong>CHAPTER 2C: Wind Shrine</strong> — <em>"Speed of the Tools"</em></summary>
+<summary id="chapter-2c">💨 <strong>CHAPTER 2C: Wind Shrine</strong> — <em>"Speed of the Tools"</em></summary>
 
 <br/>
 
@@ -386,7 +401,7 @@
 <!-- ═══ CHAPTER 3: FINAL BOSS ═══ -->
 
 <details>
-<summary>🌙 <strong>CHAPTER 3: The Final Stance</strong> — <em>⚠️ Moon Stance Required</em></summary>
+<summary id="chapter-3">🌙 <strong>CHAPTER 3: The Final Stance</strong> — <em>⚠️ Moon Stance Required</em></summary>
 
 <br/>
 
@@ -471,9 +486,9 @@
 
 <br/>
 
-<!-- GitHub Trophies -->
+<!-- GitHub Activity Graph -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YusufArrayyan&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YusufArrayyan&bg_color=0a0a1a&color=c41e3a&line=c41e3a&point=e8dcc8&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
 </p>
 
 <br/>
@@ -509,9 +524,16 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YusufArrayyan/YusufArrayyan/output/github-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YusufArrayyan/YusufArrayyan/output/github-snake.svg"/>
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/YusufArrayyan/YusufArrayyan/output/github-snake-dark.svg" width="100%"/>
+    <!-- Fallback if Action hasn't run yet -->
+    <img alt="Snake animation" src="https://img.shields.io/badge/🐍_THE_SERPENT_IS_STALKNG-0a0a1a?style=for-the-badge&logo=github&labelColor=c41e3a" width="100%"/>
   </picture>
 </p>
+
+<div align="center">
+  <a href="https://github.com/YusufArrayyan/YusufArrayyan/actions/workflows/snake.yml">
+    <img src="https://img.shields.io/badge/🔮_SUMMON_THE_SERPENT-c41e3a?style=for-the-badge&logo=github&logoColor=white" alt="Summon Snake"/>
+  </a>
+</div>
 
 <br/>
 
