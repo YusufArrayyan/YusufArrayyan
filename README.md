@@ -486,9 +486,16 @@
 
 <br/>
 
-<!-- GitHub Trophies Mirror -->
+<!-- GitHub Trophies Mirror (Zeta) -->
 <p align="center">
-  <img src="https://github-profile-trophy-reiyua-mirror.vercel.app/?username=YusufArrayyan&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-profile-trophy-zeta.vercel.app/?username=YusufArrayyan&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="100%"/>
+</p>
+
+<br/>
+
+<!-- Ronin's Battle Record (Summary Card) -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YusufArrayyan&theme=radical" alt="Battle Record" width="400"/>
 </p>
 
 <br/>
