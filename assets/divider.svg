@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="900" height="30">
+  <defs>
+    <filter id="inkBlur">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+  <style>
+    @keyframes brushStroke {
+      0% { stroke-dashoffset: 920; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes inkSplat {
+      0%, 60% { opacity: 0; transform: scale(0); }
+      70% { opacity: 0.6; transform: scale(1.2); }
+      100% { opacity: 0.4; transform: scale(1); }
+    }
+    .brush-line {
+      stroke-dasharray: 920;
+      animation: brushStroke 3s ease-out forwards;
+    }
+    .splat { animation: inkSplat 3.5s ease-out forwards; transform-origin: center; }
+    .splat2 { animation: inkSplat 4s ease-out forwards; animation-delay: 0.3s; transform-origin: center; }
+  </style>
+
+  <!-- Main brush stroke -->
+  <path class="brush-line" d="M50,15 Q150,12 250,15 Q350,18 450,14 Q550,10 650,15 Q750,19 850,15" 
+        stroke="#c41e3a" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6" filter="url(#inkBlur)"/>
+  
+  <!-- Thinner parallel stroke -->
+  <path class="brush-line" d="M80,17 Q200,14 350,17 Q500,20 650,16 Q800,13 870,16" 
+        stroke="#c41e3a" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.3" 
+        style="animation-delay: 0.5s"/>
+
+  <!-- Ink splatters -->
+  <circle class="splat" cx="448" cy="14" r="3" fill="#c41e3a" opacity="0"/>
+  <circle class="splat2" cx="452" cy="16" r="1.5" fill="#c41e3a" opacity="0"/>
+  <circle class="splat" cx="150" cy="15" r="1.8" fill="#c41e3a" opacity="0" style="animation-delay:0.8s"/>
+  <circle class="splat2" cx="720" cy="15" r="2" fill="#c41e3a" opacity="0" style="animation-delay:1s"/>
+
+  <!-- Decorative cherry blossom dots -->
+  <circle cx="445" cy="8" r="1.5" fill="#ffb7c5" opacity="0.4"/>
+  <circle cx="455" cy="22" r="1" fill="#ffb7c5" opacity="0.3"/>
+</svg>

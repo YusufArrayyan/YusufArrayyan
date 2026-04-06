@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4444" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#c41e3a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#c41e3a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05050f"/>
+      <stop offset="40%" stop-color="#0f0a1e"/>
+      <stop offset="70%" stop-color="#1a0e28"/>
+      <stop offset="100%" stop-color="#251525"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="15" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    @keyframes sunPulse {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.7; }
+    }
+    @keyframes fogDrift1 {
+      0%, 100% { transform: translateX(0px); opacity: 0.07; }
+      50% { transform: translateX(40px); opacity: 0.04; }
+    }
+    @keyframes fogDrift2 {
+      0%, 100% { transform: translateX(0px); opacity: 0.05; }
+      50% { transform: translateX(-50px); opacity: 0.08; }
+    }
+    @keyframes fogDrift3 {
+      0%, 100% { transform: translateX(0px); opacity: 0.04; }
+      50% { transform: translateX(30px); opacity: 0.06; }
+    }
+    @keyframes windDrift {
+      0% { transform: translateX(-200px); opacity: 0; }
+      15% { opacity: 0.08; }
+      85% { opacity: 0.06; }
+      100% { transform: translateX(1100px); opacity: 0; }
+    }
+    @keyframes pf1 {
+      0% { transform: translate(0,0) rotate(0deg); opacity:0; }
+      4% { opacity:0.85; }
+      50% { transform: translate(35px,200px) rotate(200deg); opacity:0.6; }
+      100% { transform: translate(60px,420px) rotate(420deg); opacity:0; }
+    }
+    @keyframes pf2 {
+      0% { transform: translate(0,0) rotate(0deg); opacity:0; }
+      4% { opacity:0.8; }
+      50% { transform: translate(-25px,210px) rotate(-170deg); opacity:0.55; }
+      100% { transform: translate(-45px,420px) rotate(-380deg); opacity:0; }
+    }
+    @keyframes pf3 {
+      0% { transform: translate(0,0) rotate(30deg); opacity:0; }
+      5% { opacity:0.9; }
+      50% { transform: translate(45px,190px) rotate(210deg); opacity:0.65; }
+      100% { transform: translate(70px,420px) rotate(450deg); opacity:0; }
+    }
+    @keyframes pf4 {
+      0% { transform: translate(0,0) rotate(-20deg); opacity:0; }
+      3% { opacity:0.75; }
+      50% { transform: translate(-35px,205px) rotate(-190deg); opacity:0.5; }
+      100% { transform: translate(-55px,420px) rotate(-400deg); opacity:0; }
+    }
+    @keyframes pf5 {
+      0% { transform: translate(0,0) rotate(10deg); opacity:0; }
+      6% { opacity:0.85; }
+      50% { transform: translate(20px,195px) rotate(160deg); opacity:0.6; }
+      100% { transform: translate(35px,420px) rotate(360deg); opacity:0; }
+    }
+    @keyframes textGlow {
+      0%, 100% { filter: url(#glow); opacity: 0.95; }
+      50% { filter: url(#bigGlow); opacity: 1; }
+    }
+    .fog1 { animation: fogDrift1 18s ease-in-out infinite; }
+    .fog2 { animation: fogDrift2 22s ease-in-out infinite; }
+    .fog3 { animation: fogDrift3 15s ease-in-out infinite; }
+    .wind1 { animation: windDrift 10s linear infinite; }
+    .wind2 { animation: windDrift 13s linear infinite; animation-delay: 4s; }
+    .wind3 { animation: windDrift 9s linear infinite; animation-delay: 7s; }
+    .p1  { animation: pf1 13s linear infinite; }
+    .p2  { animation: pf2 15s linear infinite; animation-delay: 1.5s; }
+    .p3  { animation: pf3 12s linear infinite; animation-delay: 3s; }
+    .p4  { animation: pf4 14s linear infinite; animation-delay: 0.5s; }
+    .p5  { animation: pf5 11s linear infinite; animation-delay: 2.5s; }
+    .p6  { animation: pf1 14s linear infinite; animation-delay: 5s; }
+    .p7  { animation: pf3 12s linear infinite; animation-delay: 6.5s; }
+    .p8  { animation: pf2 16s linear infinite; animation-delay: 4s; }
+    .p9  { animation: pf4 13s linear infinite; animation-delay: 8s; }
+    .p10 { animation: pf5 11s linear infinite; animation-delay: 1s; }
+    .p11 { animation: pf1 15s linear infinite; animation-delay: 9s; }
+    .p12 { animation: pf3 13s linear infinite; animation-delay: 7s; }
+    .p13 { animation: pf2 12s linear infinite; animation-delay: 3.5s; }
+    .p14 { animation: pf4 14s linear infinite; animation-delay: 10s; }
+    .p15 { animation: pf5 11s linear infinite; animation-delay: 5.5s; }
+    .sun-outer { animation: sunPulse 6s ease-in-out infinite; }
+    .title-text { animation: textGlow 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Sky -->
+  <rect width="900" height="400" fill="url(#skyGrad)"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="25" r="0.8" fill="#fff" opacity="0.4"/>
+  <circle cx="130" cy="45" r="0.6" fill="#ffeedd" opacity="0.3"/>
+  <circle cx="200" cy="18" r="0.9" fill="#fff" opacity="0.5"/>
+  <circle cx="280" cy="55" r="0.5" fill="#fff" opacity="0.25"/>
+  <circle cx="340" cy="30" r="0.7" fill="#ffeedd" opacity="0.35"/>
+  <circle cx="420" cy="15" r="0.6" fill="#fff" opacity="0.3"/>
+  <circle cx="520" cy="40" r="0.8" fill="#fff" opacity="0.4"/>
+  <circle cx="590" cy="20" r="0.5" fill="#ffeedd" opacity="0.25"/>
+  <circle cx="650" cy="50" r="0.7" fill="#fff" opacity="0.35"/>
+  <circle cx="720" cy="28" r="0.9" fill="#fff" opacity="0.45"/>
+  <circle cx="780" cy="45" r="0.6" fill="#fff" opacity="0.3"/>
+  <circle cx="840" cy="22" r="0.7" fill="#ffeedd" opacity="0.35"/>
+  <circle cx="100" cy="70" r="0.5" fill="#fff" opacity="0.2"/>
+  <circle cx="470" cy="65" r="0.6" fill="#fff" opacity="0.25"/>
+  <circle cx="750" cy="60" r="0.5" fill="#ffeedd" opacity="0.2"/>
+  <circle cx="860" cy="55" r="0.8" fill="#fff" opacity="0.3"/>
+
+  <!-- Sun outer glow -->
+  <circle class="sun-outer" cx="450" cy="120" r="110" fill="url(#sunGlow)" filter="url(#softGlow)"/>
+  <!-- Sun core -->
+  <circle cx="450" cy="120" r="70" fill="#c41e3a" opacity="0.9"/>
+  <circle cx="450" cy="120" r="55" fill="#d4302a" opacity="0.3"/>
+
+  <!-- Far Mountains -->
+  <polygon points="0,260 35,252 70,240 105,245 140,230 175,222 210,228 245,215 280,208 315,212 350,200 385,192 415,185 445,175 465,170 490,164 510,170 535,175 560,182 585,178 610,185 640,180 670,188 700,195 730,188 760,198 790,205 820,200 850,210 880,220 900,230 900,400 0,400" fill="#14142e"/>
+
+  <!-- Mid Mountains -->
+  <polygon points="0,272 45,265 90,260 130,264 165,254 200,248 235,255 270,242 305,238 340,244 375,234 410,228 445,222 475,218 505,224 535,219 565,225 595,218 625,225 655,232 685,224 715,230 745,238 775,232 805,240 835,248 865,242 900,252 900,400 0,400" fill="#0e0e24"/>
+
+  <!-- Torii Gate -->
+  <g transform="translate(440, 195)">
+    <!-- Top beam curved -->
+    <path d="M-30,-32 Q-32,-36 0,-38 Q32,-36 30,-32 L28,-30 Q0,-32 -28,-30 Z" fill="#6b1520"/>
+    <!-- Second beam -->
+    <rect x="-25" y="-26" width="50" height="3" fill="#5a1018" rx="1"/>
+    <!-- Left pillar -->
+    <rect x="-24" y="-28" width="4" height="55" fill="#5a1018"/>
+    <!-- Right pillar -->
+    <rect x="20" y="-28" width="4" height="55" fill="#5a1018"/>
+    <!-- Base left -->
+    <rect x="-26" y="25" width="8" height="3" fill="#4a0e15"/>
+    <!-- Base right -->
+    <rect x="18" y="25" width="8" height="3" fill="#4a0e15"/>
+  </g>
+
+  <!-- Samurai Silhouette -->
+  <g transform="translate(530, 196)">
+    <!-- Conical hat (kasa) -->
+    <polygon points="0,-22 -12,-10 12,-10" fill="#0a0a18"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-8" rx="4" ry="3" fill="#0a0a18"/>
+    <!-- Body / robes -->
+    <polygon points="-6,-5 6,-5 9,18 -9,18" fill="#0a0a18"/>
+    <!-- Left arm + katana -->
+    <line x1="-6" y1="-2" x2="-14" y2="10" stroke="#0a0a18" stroke-width="2.5"/>
+    <line x1="-14" y1="10" x2="-22" y2="-8" stroke="#8a8a9a" stroke-width="1.2"/>
+    <!-- Right arm -->
+    <line x1="6" y1="-2" x2="10" y2="8" stroke="#0a0a18" stroke-width="2.5"/>
+    <!-- Legs -->
+    <polygon points="-9,18 -7,30 -2,30 -1,18" fill="#0a0a18"/>
+    <polygon points="1,18 2,30 7,30 9,18" fill="#0a0a18"/>
+  </g>
+
+  <!-- Close Ground -->
+  <polygon points="0,278 60,274 120,272 180,275 240,270 300,268 360,272 420,267 480,270 540,265 600,268 660,272 720,268 780,272 840,269 900,274 900,400 0,400" fill="#0a0a1a"/>
+
+  <!-- Ground subtle texture lines -->
+  <line x1="0" y1="290" x2="900" y2="290" stroke="#151525" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="310" x2="900" y2="310" stroke="#151525" stroke-width="0.3" opacity="0.2"/>
+
+  <!-- Fog Layers -->
+  <ellipse class="fog1" cx="250" cy="268" rx="350" ry="10" fill="white" opacity="0.06"/>
+  <ellipse class="fog2" cx="650" cy="275" rx="300" ry="8" fill="white" opacity="0.05"/>
+  <ellipse class="fog3" cx="450" cy="264" rx="450" ry="12" fill="white" opacity="0.04"/>
+
+  <!-- Wind Streaks -->
+  <line class="wind1" x1="0" y1="185" x2="55" y2="183" stroke="white" stroke-width="0.6" opacity="0"/>
+  <line class="wind2" x1="0" y1="210" x2="40" y2="209" stroke="white" stroke-width="0.4" opacity="0"/>
+  <line class="wind3" x1="0" y1="168" x2="50" y2="166" stroke="white" stroke-width="0.5" opacity="0"/>
+
+  <!-- Cherry Blossom Petals -->
+  <ellipse class="p1"  cx="75"  cy="-10" rx="4" ry="2" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p2"  cx="155" cy="-10" rx="3.5" ry="1.8" fill="#ffc5d3" opacity="0"/>
+  <ellipse class="p3"  cx="240" cy="-10" rx="4.5" ry="2.2" fill="#ffb0be" opacity="0"/>
+  <ellipse class="p4"  cx="310" cy="-10" rx="3" ry="1.5" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p5"  cx="385" cy="-10" rx="4" ry="2" fill="#ffd0dc" opacity="0"/>
+  <ellipse class="p6"  cx="430" cy="-10" rx="3.5" ry="1.8" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p7"  cx="490" cy="-10" rx="4" ry="2.2" fill="#ffc5d3" opacity="0"/>
+  <ellipse class="p8"  cx="550" cy="-10" rx="3" ry="1.6" fill="#ffb0be" opacity="0"/>
+  <ellipse class="p9"  cx="620" cy="-10" rx="4.5" ry="2" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p10" cx="680" cy="-10" rx="3.5" ry="1.8" fill="#ffd0dc" opacity="0"/>
+  <ellipse class="p11" cx="740" cy="-10" rx="4" ry="2" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p12" cx="800" cy="-10" rx="3" ry="1.5" fill="#ffc5d3" opacity="0"/>
+  <ellipse class="p13" cx="850" cy="-10" rx="4.5" ry="2.2" fill="#ffb0be" opacity="0"/>
+  <ellipse class="p14" cx="120" cy="-10" rx="3.5" ry="1.8" fill="#ffb7c5" opacity="0"/>
+  <ellipse class="p15" cx="570" cy="-10" rx="4" ry="2" fill="#ffd0dc" opacity="0"/>
+
+  <!-- Kanji decorative -->
+  <text x="450" y="305" text-anchor="middle" fill="#c41e3a" font-family="serif" font-size="18" opacity="0.4" filter="url(#glow)">侍</text>
+
+  <!-- Title -->
+  <text class="title-text" x="450" y="335" text-anchor="middle" fill="#e8dcc8" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="10" filter="url(#glow)">YUSUF ARRAYYAN</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="360" text-anchor="middle" fill="#d4a574" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="5" opacity="0.85">THE CODE RONIN  ·  FULL-STACK DEVELOPER</text>
+
+  <!-- Bottom decorative line -->
+  <line x1="300" y1="375" x2="600" y2="375" stroke="#c41e3a" stroke-width="1" opacity="0.3"/>
+  <circle cx="450" cy="375" r="2" fill="#c41e3a" opacity="0.4"/>
+  <line x1="330" y1="375" x2="335" y2="375" stroke="#d4a574" stroke-width="1.5" opacity="0.3"/>
+  <line x1="565" y1="375" x2="570" y2="375" stroke="#d4a574" stroke-width="1.5" opacity="0.3"/>
+</svg>
