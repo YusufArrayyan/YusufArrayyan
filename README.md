@@ -156,6 +156,159 @@
 <!-- ═══════════════ INK DIVIDER ═══════════════ -->
 <p align="center"><img src="./assets/divider.svg" width="100%"/></p>
 
+<!-- ═══════════════ BATTLE SCENE ═══════════════ -->
+
+<h2 align="center">⚔️ The Duel — Live Combat</h2>
+
+<p align="center">
+  <em>Witness the ronin's blade in action against the demons of inefficiency</em>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="./assets/battle-scene.svg" alt="RPG Battle Scene — Samurai vs Oni Demon" width="100%"/>
+</p>
+
+<br/>
+
+<!-- ═══════════════ INK DIVIDER ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
+<!-- ═══════════════ INTERACTIVE GAME ═══════════════ -->
+
+<h2 align="center">🎮 Choose Your Stance, Warrior!</h2>
+
+<p align="center">
+  <em>Click a stance below to challenge the Oni. Each path reveals a different fate...</em>
+</p>
+
+<br/>
+
+<div align="center">
+
+<details>
+<summary>🪨 <strong>Stone Stance</strong> — Unyielding Strength</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  ⚔️  STONE STANCE ACTIVATED!                    ║
+║                                                  ║
+║  You plant your feet firmly, channeling the      ║
+║  unbreakable force of the mountain.              ║
+║                                                  ║
+║  The Oni charges with Wind magic...              ║
+║  But stone SHATTERS wind!                        ║
+║                                                  ║
+║  💥 CRITICAL HIT! → 50 DMG                      ║
+║                                                  ║
+║  ══════════════════════════════════════           ║
+║  🏆 VICTORY! Your BACKEND skills level up!       ║
+║  → PHP +10 XP | Go +10 XP                       ║
+║  ══════════════════════════════════════           ║
+╚══════════════════════════════════════════════════╝
+```
+
+> 🪨 *"Like stone, reliable backend code withstands any assault."*
+
+</details>
+
+<details>
+<summary>🌊 <strong>Water Stance</strong> — Fluid Adaptation</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  🌊  WATER STANCE ACTIVATED!                    ║
+║                                                  ║
+║  You flow like water, adapting to every attack.  ║
+║  Your movements are elegant and precise.         ║
+║                                                  ║
+║  The Oni strikes with Stone fists...             ║
+║  But water ERODES stone!                         ║
+║                                                  ║
+║  💥 PERFECT PARRY! → 45 DMG                     ║
+║                                                  ║
+║  ══════════════════════════════════════           ║
+║  🏆 VICTORY! Your FRONTEND skills level up!      ║
+║  → HTML +10 XP | CSS +10 XP | JS +10 XP         ║
+║  ══════════════════════════════════════           ║
+╚══════════════════════════════════════════════════╝
+```
+
+> 🌊 *"Like water, responsive design flows to fit any screen."*
+
+</details>
+
+<details>
+<summary>💨 <strong>Wind Stance</strong> — Swift Precision</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  💨  WIND STANCE ACTIVATED!                     ║
+║                                                  ║
+║  You move faster than the eye can follow.        ║
+║  Your blade dances like leaves in a storm.       ║
+║                                                  ║
+║  The Oni casts Water magic...                    ║
+║  But wind SCATTERS water!                        ║
+║                                                  ║
+║  💥 FLURRY STRIKE! → 55 DMG                     ║
+║                                                  ║
+║  ══════════════════════════════════════           ║
+║  🏆 VICTORY! Your TOOLS mastery levels up!       ║
+║  → Git +10 XP | GitHub +10 XP                   ║
+║  ══════════════════════════════════════           ║
+╚══════════════════════════════════════════════════╝
+```
+
+> 💨 *"Like wind, efficient tooling accelerates everything it touches."*
+
+</details>
+
+<details>
+<summary>🌙 <strong>Moon Stance</strong> — Absolute Mastery</summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════╗
+║  🌙  MOON STANCE ACTIVATED!                     ║
+║                                                  ║
+║  The ultimate technique. You transcend all       ║
+║  limitations, channeling the moonlight itself.   ║
+║                                                  ║
+║  The Oni trembles... it cannot comprehend        ║
+║  the power of DATA-DRIVEN DECISIONS!             ║
+║                                                  ║
+║  💥 LEGENDARY STRIKE! → 99 DMG                  ║
+║                                                  ║
+║  ══════════════════════════════════════           ║
+║  👑 PERFECT VICTORY! DATA mastery achieved!      ║
+║  → Analysis +20 XP | Visualization +20 XP       ║
+║  ══════════════════════════════════════           ║
+║                                                  ║
+║  🌸 "The Ghost sheathed his blade as cherry     ║
+║     blossoms drifted across the moonlit field."  ║
+╚══════════════════════════════════════════════════╝
+```
+
+> 🌙 *"Like the moon, data illuminates what was hidden in darkness."*
+
+</details>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════ INK DIVIDER ═══════════════ -->
+<p align="center"><img src="./assets/divider.svg" width="100%"/></p>
+
 <!-- ═══════════════ BATTLE STATISTICS ═══════════════ -->
 
 <h2 align="center">📊 Battle Statistics</h2>
