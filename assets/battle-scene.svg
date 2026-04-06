@@ -176,7 +176,8 @@
 
   <!-- ═══ SAMURAI CHARACTER (LEFT) ═══ -->
   <g class="samurai">
-    <g class="samurai-idle" transform="translate(220, 210)">
+    <g transform="translate(220, 240) scale(0.7)">
+      <g class="samurai-idle">
       <!-- Shadow on ground -->
       <ellipse cx="5" cy="93" rx="22" ry="5" fill="black" opacity="0.3"/>
       <!-- Conical hat (kasa) -->
@@ -214,12 +215,14 @@
       <ellipse cx="10" cy="62" rx="6" ry="3" fill="#1e1e40"/>
       <!-- Scabbard -->
       <line x1="-12" y1="12" x2="-25" y2="40" stroke="#2a2a50" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
     </g>
   </g>
 
   <!-- ═══ ONI DEMON (RIGHT) ═══ -->
   <g class="oni">
-    <g class="oni-idle" transform="translate(660, 200)">
+    <g transform="translate(660, 218) scale(0.7)">
+      <g class="oni-idle">
       <!-- Shadow -->
       <ellipse cx="0" cy="120" rx="28" ry="6" fill="black" opacity="0.3"/>
       <!-- Horns -->
@@ -261,6 +264,7 @@
       <!-- Feet -->
       <ellipse cx="-14" cy="82" rx="8" ry="4" fill="#2a0e18"/>
       <ellipse cx="14" cy="82" rx="8" ry="4" fill="#2a0e18"/>
+      </g>
     </g>
   </g>
 
